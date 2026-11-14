@@ -82,3 +82,7 @@ En Express et en Chrono, le classement se fait au patrimoine net : argent dispon
 - Noms des propriétés, choix des monuments, des gares, des aéroports et des attractions, et modèles de pions.
 - Comportement d’une salle publique avec moins de deux humains après 5 minutes et difficulté du robot ajouté automatiquement.
 - Barème de valorisation du patrimoine en fin de partie et règle d’arrondi des répartitions au prorata.
+
+## Stack technique retenue
+
+- Option 1 : PWA avec React et TypeScript, serveur multijoueur Node.js avec Colyseus et sauvegardes locales dans IndexedDB.
